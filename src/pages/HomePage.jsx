@@ -28,7 +28,7 @@ function HomePage() {
           return (
             <div className="list-group" key={country._id}>
               <Link
-                to={`/country/${country.alpha3Code}`}
+                to={`/${country.alpha3Code}`}
                 className="list-group-item list-group-item-action"
               >
                 <img
