@@ -19,7 +19,7 @@ function CountryDetails() {
 
   useEffect(() => {
     fetchCountry();
-  }, []);
+  }, [countryId]);
 
   if (!country) {
     return <p>Loading...</p>;
